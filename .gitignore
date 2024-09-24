@@ -1,0 +1,6 @@
+.dist/
+.gradle/
+.idea/
+.out/
+.gitignore
+target/
