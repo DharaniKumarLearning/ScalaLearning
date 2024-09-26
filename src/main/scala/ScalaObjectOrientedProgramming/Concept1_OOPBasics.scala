@@ -39,7 +39,7 @@ class NewPerson(val name : String, val age : Int = 1) {
   // this keyword always refer to the current object
   // since the class field and the method are having the same name we have to explicitly use this keyword
 
-  def greet() : Unit = println(s"Hi, I am $name") // In this line this is implicitly invoked
+  def greet() : Unit = println(s"Hi, I am $name") // In this line "this" is implicitly invoked
   // Here we have defined two functions with same name but different signatures
   // These type of methods are called overloaded methods
 

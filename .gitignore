@@ -1,6 +1,7 @@
 .dist/
 .gradle/
 .idea/
+project
+.bsp/
 .out/
 .gitignore
-target/
